@@ -25,7 +25,7 @@ author:
   name     : "William Sjöblom"
   job      : "Computer Engineering Student"
   bio      : ""
-  thumb    : /images/author.jpg
+  thumb    : https://i.stack.imgur.com/x8PhM.png # /images/author.jpg
   email    : ""
   url      : http://wilsj.com
   github   : http://github.com/williamsjoblom
@@ -44,6 +44,8 @@ gems:
 navbar:
   - slug : about
     title: about me
+  - slug : portfolio
+    title: portfolio
   - slug : blog
     title: blog
 
