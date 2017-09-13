@@ -1,0 +1,51 @@
+
+# SEO settings
+title: "william sjöblom"
+title2: "" # default: ""
+description: ""
+keywords: ""
+url: http://wilsj.com # site url
+
+comments: false
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "William Sjöblom"
+  job      : "Computer Engineering Student"
+  bio      : ""
+  thumb    : /images/author.jpg
+  email    : ""
+  url      : http://wilsj.com
+  github   : http://github.com/williamsjoblom
+#  linkedin : http://linkedin.com/in/nrird
+
+# social settings
+#og_locale: "en_US"
+#twitter_card: "summary_large_image"
+#twitter_site: "@HeiswayiNrird"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: about me
+  - slug : blog
+    title: blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
