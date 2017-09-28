@@ -26,7 +26,7 @@ pln fib(10);
 
 In its current state the compiler is pretty barebones and only contains pretty generic features present in many other imperative languages. I have quite a few cool language feature ideas that will will end up in a blog post at some point (and hopefully in the language itself).
 
-In its current state the compiler is missing a proper test suite, has a few memory leaks and segfaults once in a while. Reliability and robustness are currently at highest priority for future development.
+At this time the compiler is missing a proper test suite, has a few memory leaks and segfaults once in a while. Reliability and robustness are currently at highest priority for future development.
 
 ### Other projects
 Hopefully something will show up here soon. In the meantime you can have a look at my [GitHub]({{ site.author.github }})!
