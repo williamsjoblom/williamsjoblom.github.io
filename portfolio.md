@@ -32,7 +32,7 @@ A 6502-based homebrew computer with a simple unix-inspired multitasking OS with 
 Featuring a massive 32Kb of RAM (split up into 32 1K pages where each page is assigned to a process since the 6502 has no internal support for virtual memory), serial and parallel interfaces, PS/2 keyboard support, and an extension audio board capable of producing tunes from an AY-3-8910 sound generator. The operating system and drivers are all implemented in 6502-assembly. 
 
 ![](../assets/images/20150525_210636.jpg "Main board")
-
+_Main board with the memory monitor running._
 
 ### Other projects
 Hopefully something will show up here soon. In the meantime you can have a look at my [GitHub]({{ site.author.github }})!
