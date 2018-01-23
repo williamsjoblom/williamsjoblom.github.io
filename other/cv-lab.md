@@ -24,15 +24,16 @@ För att slutligen stänga programmet: tryck `q`.
 
 Det bör också finnas en texteditor öppen på skärmen med filen `lab.py` öppen. Denna fil bör innehålla nåt i stil med detta:
 {% highlight python %}
-import cv2
 import vision
 
-def find_ball(image):
+def find(image):
 	# Skriv din kod här!
+	
+vision.run(find)
 {% endhighlight %}
 
 Ersätt `# Skriv din kod här` med de anrop du vill göra (ett anrop per rad). Information om dessa anrop kan ses under "Dokumentation".
-Observera textindraget vid `# Skriv din kod här`, all kodrader ni skriver ska vara indragna på detta sett. Detta indrag kommer din texteditor skapa åt dig automatiskt!
+Observera textindraget vid `# Skriv din kod här`, all kodrader ni skriver ska vara indragna på detta sätt. Detta indrag kommer din texteditor skapa åt dig automatiskt!
 
 
 ### 1. Borttagning av brus
