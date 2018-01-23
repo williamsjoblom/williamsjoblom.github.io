@@ -58,42 +58,41 @@ image.show()
 {% highlight python %}
 image.blur(n)
 {% endhighlight %}
-*Lägger på oskärpa på bilden. Ju högre värde på `n` desto större oskärpa!*
+**Lägger på oskärpa på bilden. Ju högre värde på `n` desto större oskärpa!**
 
 ### Färgintervall
 {% highlight python %}
 image.in_range(lower, upper)
 {% endhighlight %}
-*De pixlar utanför färgintervallet avgränsat av `upper` och `lower` sätts till vitt och de utanför intevallet sätts till svart.*
+**De pixlar utanför färgintervallet avgränsat av `upper` och `lower` sätts till vitt och de utanför intevallet sätts till svart.**
 
 Exempel:
+Ta bort alla färger mellan `(3, 100, 2)` och `(35, 255, 255)`. Dessa färger är skriva i HSV-färgsystemet.
 {% highlight python %}
 image.in_range((3, 100, 2), (35, 255, 255))
 {% endhighlight %}
-Tar bort alla färger mellan `(3, 100, 2)` och `(35, 255, 255)`. Dessa färger är skriva i HSV-färgsystemet.
-
 
 ### Morfologi
 ![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Original_Image.png)
 
-_Originalbild._
+**Originalbild.**
 
 #### Erode
 *Krymper vita delar i bilden. Ju större värde på `n` desto större expansion.*
-```python
+{% highlight python %}
 image.erode(n)
-```
+{% endhighlight %}
 
 ![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Erosion.png)
 
-_Bild efter erode._
+**Bild efter erode.**
 
 #### Dilate
 *Expanderar vita delar i bilden. Ju större värde på `n` desto större krypning.*
-```python
+{% highlight python %}
 image.dilate(n)
-```
+{% endhighlight %}
 
 ![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Dilation.png)
 
-_Bild efter dilate._
+**Bild efter dilate.**
