@@ -59,6 +59,7 @@ image.show()
 image.blur(n)
 {% endhighlight %}
 *Lägger på oskärpa på bilden. Ju högre värde på `n` desto större oskärpa!*
+*`n` väljs lämpligen till ett värde mellan `0` och `50`.*
 
 ### Färgintervall
 {% highlight python %}
@@ -78,20 +79,22 @@ image.in_range((3, 100, 2), (35, 255, 255))
 *Originalbild.*
 
 #### Erode
-*Krymper vita delar i bilden. Ju större värde på `n` desto större expansion.*
 {% highlight python %}
 image.erode(n)
 {% endhighlight %}
+*Krymper vita delar i bilden. Ju större värde på `n` desto större expansion.*
+*`n` väljs lämpligen till ett värde mellan `0` och `50`.*
 
 ![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Erosion.png)
 
 *Bild efter erode.*
 
 #### Dilate
-*Expanderar vita delar i bilden. Ju större värde på `n` desto större krypning.*
 {% highlight python %}
 image.dilate(n)
 {% endhighlight %}
+*Expanderar vita delar i bilden. Ju större värde på `n` desto större krypning.*
+*`n` väljs lämpligen till ett värde mellan `0` och `50`.*
 
 ![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Dilation.png)
 
