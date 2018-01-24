@@ -4,6 +4,16 @@ title: portfolio
 permalink: /portfolio/
 ---
 
+### Mapping robot
+![](../assets/images/kartrobot.jpg "Mapping robot")
+This project was done together with five fellow students at Linköping University for a course in construction with microcomputers during the fall of 2017. 
+
+The main assignment was build a robot to map a maze-like course as fast as possible. The usual approach achieving this is by following a wall until you have explored the entire map. But this is far too simple right? Instead we used the more general SLAM-based approach using a LIDAR sensor, some clever algorithms and a ton of control theory; ultimately leading to a blowout in the mapping competition at the end of the semster.
+
+During the project I was mainly involved in design and construction of electronics along with micro controller programming.
+
+The project is open source and available on [GitHub](https://github.com/williamsjoblom/kmm).
+
 ### Digestive
 [Digestive](https://github.com/williamsjoblom/compiler-experiment) is my own programming language. Even though the JIT-compiler is far from completed it has some of the base functionality already in place. Features such as functions, basic control flow and composite data types are in a working state. One of the compilers main features is its ability to hotswap code at runtime. This means that one can magically make changes to the source code of a running program without having to restart it for the changes to have effect!
 
@@ -35,4 +45,4 @@ Featuring a massive 32Kb of RAM (split up into 32 1K pages where each page is as
 _Main board with the memory monitor running._
 
 ### Other projects
-Hopefully something will show up here soon. In the meantime you can have a look at my [GitHub]({{ site.author.github }})!
+Hopefully more projects will show up here soon. In the meantime you can have a look at my [GitHub]({{ site.author.github }})!
