@@ -9,13 +9,13 @@ permalink: /portfolio/
 
 _Here are a few code examples:_
 {% highlight swift %}
-func swap(t : (i32, i32)) -> (i32, i32) {
+fun swap(t : (i32, i32)) -> (i32, i32) {
      return (t.1, t.0);
 }
 {% endhighlight %}
 
 {% highlight swift %}
-func fib(n : i32) -> i32 {
+fun fib(n : i32) -> i32 {
     if (n <= 1) return n;
     if (n == 2) return 1;
     return fib(n - 1) + fib(n - 2);
