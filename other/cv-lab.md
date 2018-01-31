@@ -1,28 +1,30 @@
 ---
 layout: separate-page
 title: Datorseende med Python och OpenCV
+author: William Sjöblom
 permalink: /other/cv-lab/
 ---
 
 # Datorseende med Python och OpenCV
-
 ## Teori
 ### HSV
-Inom datorseende används ofta färgsystemet HSV istället för det vanligare systemet RGB. I RGB används för det mesta tre heltal mellan 0 och 255 (som ofta skrivs i basen 16. I bas 16 alltså tre heltal mellan 0 och FF). Dessa heltal betecknar de röda, gröna respektive blå färgkomponententen (därav förkortningen RGB). I HSV beskrivs istället en färg av kulör, mättnad och ljusintensitet (eller hue, saturation och value på engelska). Precis som tidigare beskrivs vardera av dessa värden av ett tal mellan 0 och 255.
+Inom datorseende används ofta färgsystemet HSV istället för det vanligare systemet RGB. I RGB används för det mesta tre heltal mellan 0 och 255 som ofta skrivs i basen 16. I bas 16 alltså tre heltal mellan 0 och FF. Dessa heltal betecknar de röda, gröna respektive blå färgkomponententen (därav förkortningen RGB). I HSV beskrivs istället en färg av värden för kulör, mättnad och ljusintensitet (eller hue, saturation och value på engelska). Precis som tidigare beskrivs vardera av dessa värden av ett tal mellan 0 och 255.
 
-Den största anledningen att färgsystem så som HSV är väl lämpade för datorseende är att denna skala separerar en färgs intensitet från dess faktiska färginnehåll. Detta gör det bland annat möjligt att på ett effektivt sätt beskriva färgintervall vilket vi snart kommer göra.
+Den största anledningen att färgsystem så som HSV är väl lämpade för datorseende är att denna skala separerar en färgs intensitet från dess faktiska färginnehåll. Detta gör det bland annat möjligt att på ett effektivt sätt beskriva färgintervall vilket vi snart kommer göra!
 
 ![alt text](https://henrydangprg.files.wordpress.com/2016/06/hsv_color_solid_cylinder_alpha_lowgamma.png?w=322&h=241)
 
 _Färgsystemet HSV._
 
 ## Instruktioner
+Denna laboration kommer göras i programspråket Python. Laborationen kommer inte kräva någon tidigare erfarenhet. Funktionerna vi kommer använda är förenklade varianter av de som programvaubiblioteket OpenCV innehåller. Om intresse att se vilka anrop som egentligen görs till OpenCV, se filen `lab.py`.
+
 ### 0. Uppstart
 I det svarta terminalfönstret som bör finnas på er skärm: skriv `cd cv-lab`.
 För att sedan testköra programmet ni snart ska skriva: skriv `python2 lab.py`.
 För att slutligen stänga programmet: tryck `q`.
 
-Det bör också finnas en texteditor öppen på skärmen med filen `lab.py` öppen. Denna fil bör innehålla nåt i stil med detta:
+Det bör också finnas en texteditor på skärmen med filen `lab.py` öppen. Denna fil bör innehålla något i stil med detta:
 {% highlight python %}
 import vision
 
@@ -49,54 +51,53 @@ Vi kommer nu se att många detaljer i bilden som ej ingår i objektet hängt med
 
 ## Dokumentation
 ### Visa bild
-```python
+{% highlight python %}
 image.show()
-```
+{% endhighlight %}
 *Visa bilden efter de transformationer som gjorts på raderna över.*
 
 ### Oskärpa
-```python
+{% highlight python %}
 image.blur(n)
-```
+{% endhighlight %}
 *Lägger på oskärpa på bilden. Ju högre värde på `n` desto större oskärpa!*
+*`n` väljs lämpligen till ett värde mellan `0` och `50`.*
 
 ### Färgintervall
-```python
+{% highlight python %}
 image.in_range(lower, upper)
-```
+{% endhighlight %}
 *De pixlar utanför färgintervallet avgränsat av `upper` och `lower` sätts till vitt och de utanför intevallet sätts till svart.*
 
 Exempel:
-```python
+Ta bort alla färger mellan `(3, 100, 2)` och `(35, 255, 255)`. Dessa färger är skriva i HSV-färgsystemet.
+{% highlight python %}
 image.in_range((3, 100, 2), (35, 255, 255))
-```
-Tar bort alla färger mellan `(3, 100, 2)` och `(35, 255, 255)`. Dessa färger är skriva i HSV-färgsystemet.
-
+{% endhighlight %}
 
 ### Morfologi
 ![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Original_Image.png)
 
-_Originalbild._
+*Originalbild.*
 
 #### Erode
-*Krymper vita delar i bilden. Ju större värde på `n` desto större expansion.*
-```python
+{% highlight python %}
 image.erode(n)
-```
+{% endhighlight %}
+*Krymper vita delar i bilden. Ju större värde på `n` desto större krympning.*
+*`n` väljs lämpligen till ett värde mellan `0` och `50`.*
 
 ![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Erosion.png)
 
-_Bild efter erode._
+*Bild efter erode.*
 
 #### Dilate
-*Expanderar vita delar i bilden. Ju större värde på `n` desto större krypning.*
-```python
+{% highlight python %}
 image.dilate(n)
-```
+{% endhighlight %}
+*Expanderar vita delar i bilden. Ju större värde på `n` desto större expansion.*
+*`n` väljs lämpligen till ett värde mellan `0` och `50`.*
 
 ![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Dilation.png)
 
-_Bild efter dilate._
-
-#### Övrigt
-Funktionerna ovan är förenklade varianter av de som programvaubiblioteket OpenCV innehåller. Om intresse att se vilka anrop som egentligen görs till OpenCV, se filen `lab.py`.
+*Bild efter dilate.*
