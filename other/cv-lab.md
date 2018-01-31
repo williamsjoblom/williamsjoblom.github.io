@@ -35,14 +35,16 @@ vision.run(find)
 Ersätt `# Skriv din kod här` med de anrop du vill göra (ett anrop per rad). Information om dessa anrop kan ses under "Dokumentation".
 Observera textindraget vid `# Skriv din kod här`, all kodrader ni skriver ska vara indragna på detta sätt. Detta indrag kommer din texteditor skapa åt dig automatiskt!
 
+### 1. Visa bild
+Till en början vill vi göra oss bekanta med anropet `image.show()`. Detta anrop används för att visa hur bilden förändrats efter pålagda transformationer. Vi börjar med att lägga till raden `image.show()` under `def find(image):`. (Glöm inte textindraget som besrkivs under "0. Uppstart"!) Det vi kommer se nu är bilden utan några pålagda transformationer. I bilden kommer kommer kulörkomponenten av färgen visas som röd, mättnadskomponenten som grön, och ljusintensitetskomponenten som blå. Detta för ge en bild av hur HSV-systemet fungerar.
 
-### 1. Borttagning av brus
+### 2. Borttagning av brus
 Av naturliga skäl vill vi få bilden mindre brusig. Under "Dokumentation" finns information om de anrop som går att göra. Använd något av dessa för att göra bilden mindre brusig.
 
-### 2. Relevant färgintervall
+### 3. Relevant färgintervall
 Vi vill nu ta bort alla färger som inte ingår i objektet vi vill detektera. Använd ytterliggare ett anrop för att uppnå detta.
 
-### 3. Filtrera bort små detaljer
+### 4. Filtrera bort små detaljer
 Vi kommer nu se att många detaljer i bilden som ej ingår i objektet hängt med även efter filtreringen av färg. Dessa detaljer är inget vi vill ha med oss när vi vill identifiera var bollen befinner sig på skärmen. En fördel för oss är dock att dessa detaljer ofta är små (förutsatt att din tröja nu inte har samma färg som objektet i fråga). Hitta ett sätt att med de återstående funktionerna filtrera bort dessa små områden från den slutgiltiga bilden. (Använd de två resterande funktionerna som du ej använt i tidigare steg.)
 
 ## Dokumentation
