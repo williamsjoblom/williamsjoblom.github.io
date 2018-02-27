@@ -47,7 +47,13 @@ Av naturliga skäl vill vi få bilden mindre brusig. Under "Dokumentation" finns
 Vi vill nu ta bort alla färger som inte ingår i objektet vi vill detektera. Använd ytterliggare ett anrop för att uppnå detta.
 
 ### 4. Filtrera bort små detaljer
-Vi kommer nu se att många detaljer i bilden som ej ingår i objektet hängt med även efter filtreringen av färg. Dessa detaljer är inget vi vill ha med oss när vi vill identifiera var bollen befinner sig på skärmen. En fördel för oss är dock att dessa detaljer ofta är små (förutsatt att din tröja nu inte har samma färg som objektet i fråga). Hitta ett sätt att med de återstående funktionerna filtrera bort dessa små områden från den slutgiltiga bilden. (Använd de två resterande funktionerna som du ej använt i tidigare steg.)
+Vi kommer nu se att många detaljer i bilden som ej ingår i objektet hängt med även efter filtreringen av färg. Dessa detaljer är inget vi vill ha med oss när vi vill identifiera var bollen befinner sig på skärmen. En fördel för oss är dock att dessa detaljer ofta är små (förutsatt att din tröja nu inte har samma färg som objektet i fråga). Hitta ett sätt att med de återstående funktionerna filtrera bort dessa små områden från den slutgiltiga bilden.
+
+### 5. Fruktmarkering
+Nu vill vi slutligen ringa in frukten på skärmen, detta kommer ske med anropen `min_enclosing_circle` och `draw_cicle`.
+
+### 6. Extra (frivillig i mån av tid och tidigare programmeringskunskaper)
+Om du har någon form av tidigare programmeringskunskaper och extra tid över får du nu chansen att lägga till en svans som följer efter 
 
 ## Dokumentation
 ### Visa bild
@@ -74,6 +80,42 @@ Ta bort alla färger mellan `(3, 100, 2)` och `(35, 255, 255)`. Dessa färger ä
 {% highlight python %}
 image.in_range((3, 100, 2), (35, 255, 255))
 {% endhighlight %}
+
+### Minsta instängande cirkel
+{% highlight python %}
+image.min_enclosing_circle(min_radius)
+{% endhighlight %}
+*Hitta den minsta minsta cirkel med radie större än `min_radius` som stänger in någon av de vita områdena.*
+
+Exempel:
+Tilldela variablerna `x`, `y` och `r` med x-koordinat, y-koordinat respektive radien av den minsta instängande cirkeln med radien 40.
+{% highlight python %}
+x, y, r = image.min_enclosing_circle(40)
+{% endhighlight %}
+
+### Minsta instängande cirkel
+{% highlight python %}
+image.min_enclosing_circle(min_radius)
+{% endhighlight %}
+*Hitta den minsta minsta cirkel med radie större än `min_radius` som stänger in någon av de vita områdena.*
+
+Exempel:
+Tilldela variablerna `x`, `y` och `r` med x-koordinat, y-koordinat respektive radien av den minsta instängande cirkeln med radien 40.
+{% highlight python %}
+x, y, r = image.min_enclosing_circle(40)
+{% endhighlight %}
+
+### Rita cirkel
+{% highlight python %}
+image.draw_circle(x, y, r)
+{% endhighlight %}
+*Rita en cirkel runt vid koordinaterna `x` och `y` med radien `r`*
+
+### Rita svans
+{% highlight python %}
+image.draw_trail(trail)
+{% endhighlight %}
+*Rita en avsmalnande svans där funktionsargumentet trail är en lista innehållande koordinatpar*
 
 ### Morfologi
 ![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Original_Image.png)
