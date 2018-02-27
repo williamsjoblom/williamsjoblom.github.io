@@ -10,6 +10,18 @@ permalink: /other/cv-lab/
 ## Instruktioner
 Denna laboration kommer göras i programmeringsspråket [Python](https://www.python.org/). Laborationen kommer inte kräva någon tidigare erfarenhet av programmering eller bildbehandling. Funktionerna vi kommer använda är förenklade varianter av de som finns i  programvaubiblioteket [OpenCV](https://opencv.org/). Om intresse finns att se vilka anrop som egentligen görs till OpenCV kan ni kolla i filen `vision.py`, det är dock inte nödvändligt för att klara av labben.
 
+## Teori HSV
+
+Inom datorseende används ofta färgsystemet HSV istället för det vanligare systemet RGB. I RGB används tre heltal mellan 0 och 255 (bytes). Ofta uttrycks dessa heltal i bas 16, alltså blir intervallet 00 till FF. Dessa heltal betecknar den röda, gröna respektive blå färgkomponententerna i varje pixel. Exempelvis kan rött uttryckas som (255, 0, 0) eller (0xFF, 0, 0), rosa som (255, 0, 255) och ljusgrått som (200, 200, 200).
+
+Trots att RGB är det vanligaste sättet att representera färger på så är det inte speciellt smidigt när man sysslar med bildbehandling. I HSV beskrivs istället en färg av kulör (H), mättnad (S) och ljusintensitet (V) (från engelskans Hue, Saturation och Value).
+
+Den största anledningen att färgsystemet HSV är väl lämpade för datorseende är att denna skala separerar en färgs intensitet från dess faktiska färginnehåll. Detta gör det bland annat möjligt att på ett effektivt sätt beskriva färgintervall vilket vi snart kommer göra!
+
+![alt text](https://henrydangprg.files.wordpress.com/2016/06/hsv_color_solid_cylinder_alpha_lowgamma.png?w=322&h=241)
+
+_Färgsystemet HSV._
+
 ### 0. Uppstart
 I det svarta terminalfönstret som bör finnas på er skärm: skriv `cd cv-lab`.
 För att sedan testköra programmet ni snart ska skriva: skriv `python2 lab.py`.
@@ -35,16 +47,6 @@ Till en början vill vi göra oss bekanta med anropet `image.show()`. Detta anro
 Av naturliga skäl vill vi få bilden mindre brusig. Under "Dokumentation" finns information om de anrop som går att göra. Använd något av dessa för att göra bilden mindre brusig.
 
 ### 3. Relevant färgintervall
-
-Inom datorseende används ofta färgsystemet HSV istället för det vanligare systemet RGB. I RGB används tre heltal mellan 0 och 255 (bytes). Ofta uttrycks dessa heltal i bas 16, alltså blir intervallet 00 till FF. Dessa heltal betecknar den röda, gröna respektive blå färgkomponententerna i varje pixel. Exempelvis kan rött uttryckas som (255, 0, 0) eller (0xFF, 0, 0), rosa som (255, 0, 255) och ljusgrått som (200, 200, 200).
-
-Trots att RGB är det vanligaste sättet att representera färger på så är det inte speciellt smidigt när man sysslar med bildbehandling. I HSV beskrivs istället en färg av kulör (H), mättnad (S) och ljusintensitet (V) (från engelskans Hue, Saturation och Value).
-
-Den största anledningen att färgsystemet HSV är väl lämpade för datorseende är att denna skala separerar en färgs intensitet från dess faktiska färginnehåll. Detta gör det bland annat möjligt att på ett effektivt sätt beskriva färgintervall vilket vi snart kommer göra!
-
-![alt text](https://henrydangprg.files.wordpress.com/2016/06/hsv_color_solid_cylinder_alpha_lowgamma.png?w=322&h=241)
-
-_Färgsystemet HSV._
 
 Vi vill nu ta bort alla färger som inte ingår i objektet vi vill detektera. Använd ytterliggare ett anrop för att uppnå detta. Experimentera med olika HSV-värden tills önskad effekt är uppnådd.
 
