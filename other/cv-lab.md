@@ -7,7 +7,7 @@ permalink: /other/cv-lab/
 
 # Datorseende med Python och OpenCV
 
-## Instruktioner
+## Introduktion
 Denna laboration kommer göras i programmeringsspråket [Python](https://www.python.org/). Laborationen kommer inte kräva någon tidigare erfarenhet av programmering eller bildbehandling. Funktionerna vi kommer använda är förenklade varianter av de som finns i  programvaubiblioteket [OpenCV](https://opencv.org/). Om intresse finns att se vilka anrop som egentligen görs till OpenCV kan ni kolla i filen `vision.py`, det är dock inte nödvändligt för att klara av labben.
 
 ## Teori HSV
