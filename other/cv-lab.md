@@ -8,7 +8,7 @@ permalink: /other/cv-lab/
 # Datorseende med Python och OpenCV
 
 ## Instruktioner
-Denna laboration kommer göras i programspråket Python. Laborationen kommer inte kräva någon tidigare erfarenhet. Funktionerna vi kommer använda är förenklade varianter av de som programvaubiblioteket OpenCV innehåller. Om intresse att se vilka anrop som egentligen görs till OpenCV, se filen `lab.py`.
+Denna laboration kommer göras i programmeringsspråket [Python](https://www.python.org/). Laborationen kommer inte kräva någon tidigare erfarenhet av programmering eller bildbehandling. Funktionerna vi kommer använda är förenklade varianter av de som finns i  programvaubiblioteket [OpenCV](https://opencv.org/). Om intresse finns att se vilka anrop som egentligen görs till OpenCV kan ni kolla i filen `vision.py`, det är dock inte nödvändligt för att klara av labben.
 
 ### 0. Uppstart
 I det svarta terminalfönstret som bör finnas på er skärm: skriv `cd cv-lab`.
@@ -36,11 +36,11 @@ Av naturliga skäl vill vi få bilden mindre brusig. Under "Dokumentation" finns
 
 ### 3. Relevant färgintervall
 
-Inom datorseende används ofta färgsystemet HSV istället för det vanligare systemet RGB. I RGB används tre heltal (bytes) mellan 0 och 255. Ofta uttrycks dessa heltal i bas 16, alltså blir intervallet 00 till FF. Dessa heltal betecknar de röda, gröna respektive blå färgkomponententen (därav förkortningen RGB). Exempelvis kan röd uttryckas som (255, 0, 0) eller (0xFF, 0, 0), rosa som (255, 0, 255) och ljusgrå som (200, 200, 200).
+Inom datorseende används ofta färgsystemet HSV istället för det vanligare systemet RGB. I RGB används tre heltal mellan 0 och 255 (bytes). Ofta uttrycks dessa heltal i bas 16, alltså blir intervallet 00 till FF. Dessa heltal betecknar den röda, gröna respektive blå färgkomponententerna i varje pixel. Exempelvis kan rött uttryckas som (255, 0, 0) eller (0xFF, 0, 0), rosa som (255, 0, 255) och ljusgrått som (200, 200, 200).
 
-Trots att RGB är det vanligaste sättet att representera färger så är det inte speciellt smidigt när man sysslar med bildbehandling. I HSV beskrivs istället en färg av kulör (H), mättnad (S) och ljusintensitet (V) (från engelskans Hue, Saturation och Value).
+Trots att RGB är det vanligaste sättet att representera färger på så är det inte speciellt smidigt när man sysslar med bildbehandling. I HSV beskrivs istället en färg av kulör (H), mättnad (S) och ljusintensitet (V) (från engelskans Hue, Saturation och Value).
 
-Den största anledningen att färgsystem så som HSV är väl lämpade för datorseende är att denna skala separerar en färgs intensitet från dess faktiska färginnehåll. Detta gör det bland annat möjligt att på ett effektivt sätt beskriva färgintervall vilket vi snart kommer göra!
+Den största anledningen att färgsystemet HSV är väl lämpade för datorseende är att denna skala separerar en färgs intensitet från dess faktiska färginnehåll. Detta gör det bland annat möjligt att på ett effektivt sätt beskriva färgintervall vilket vi snart kommer göra!
 
 ![alt text](https://henrydangprg.files.wordpress.com/2016/06/hsv_color_solid_cylinder_alpha_lowgamma.png?w=322&h=241)
 
@@ -49,7 +49,7 @@ _Färgsystemet HSV._
 Vi vill nu ta bort alla färger som inte ingår i objektet vi vill detektera. Använd ytterliggare ett anrop för att uppnå detta. Experimentera med olika HSV-värden tills önskad effekt är uppnådd.
 
 ### 4. Filtrera bort små detaljer
-Vi kommer nu se att många detaljer i bilden som ej ingår i objektet hängt med även efter filtreringen av färg. Dessa detaljer är inget vi vill ha med oss när vi vill identifiera var bollen befinner sig på skärmen. En fördel för oss är dock att dessa detaljer ofta är små (förutsatt att din tröja nu inte har samma färg som objektet i fråga). Hitta ett sätt att med de återstående funktionerna filtrera bort dessa små områden från den slutgiltiga bilden. (Använd de två resterande funktionerna som du ej använt i tidigare steg.)
+Vi kommer nu se att många detaljer i bilden som ej ingår i objektet hängt med även efter filtreringen av färg är gjord. Dessa detaljer är inget vi vill ha med oss när vi vill identifiera var bollen befinner sig på skärmen. En fördel för oss är dock att dessa detaljer ofta är små (förutsatt att din tröja nu inte har samma färg som objektet i fråga). Hitta ett sätt att filtrera bort dessa små områden med hjälp av två funktioner i dokumentationen som du inte använt ännu.
 
 ## Dokumentation
 
