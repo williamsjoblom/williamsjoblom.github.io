@@ -25,11 +25,10 @@ author:
   name     : "William Sjöblom"
   job      : "Computer Engineering Student"
   bio      : ""
-  thumb    : https://i.stack.imgur.com/x8PhM.png # /images/author.jpg
+  thumb    : https://i.stack.imgur.com/x8PhM.png
   email    : ""
   url      : http://wilsj.com
   github   : http://github.com/williamsjoblom
-#  linkedin : http://linkedin.com/in/nrird
 
 # social settings
 #og_locale: "en_US"
@@ -42,10 +41,10 @@ gems:
 
 # navbar pages
 navbar:
-  - slug : about
-    title: about me
   - slug : portfolio
     title: portfolio
+  - slug : resume
+    title: resume
   - slug : blog
     title: blog
 

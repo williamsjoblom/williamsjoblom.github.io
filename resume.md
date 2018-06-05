@@ -1,7 +1,7 @@
 ---
 layout: page
-title: about me
-permalink: /about/
+title: résumé 
+permalink: /resume/
 ---
 
 ##### Hi,
