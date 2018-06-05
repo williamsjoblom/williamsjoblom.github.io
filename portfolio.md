@@ -1,7 +1,7 @@
 ---
 layout: page
-title: portfolio
-permalink: /portfolio/
+title: Projects
+permalink: /projects/
 ---
 
 ### Mapping robot
