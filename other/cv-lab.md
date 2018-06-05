@@ -10,7 +10,7 @@ permalink: /other/cv-lab/
 ## Introduktion
 Denna laboration kommer göras i programmeringsspråket [Python](https://www.python.org/). Laborationen kommer inte kräva någon tidigare erfarenhet av programmering eller bildbehandling. Funktionerna vi kommer använda är förenklade varianter av de som finns i  programvaubiblioteket [OpenCV](https://opencv.org/). Om intresse finns att se vilka anrop som egentligen görs till OpenCV kan ni kolla i filen `vision.py`, det är dock inte nödvändligt för att klara av labben.
 
-## Teori HSV
+## Teori, HSV
 
 Inom datorseende används ofta färgsystemet HSV istället för det vanligare systemet RGB. I RGB används tre heltal mellan 0 och 255 (bytes). Ofta uttrycks dessa heltal i bas 16, alltså blir intervallet 00 till FF. Dessa heltal betecknar den röda, gröna respektive blå färgkomponententerna i varje pixel. Exempelvis kan rött uttryckas som (255, 0, 0) eller (0xFF, 0, 0), rosa som (255, 0, 255) och ljusgrått som (200, 200, 200).
 
@@ -56,10 +56,14 @@ Vi kommer nu se att många detaljer i bilden som ej ingår i objektet hängt med
 Vi kommer nu se att många detaljer i bilden som ej ingår i objektet hängt med även efter filtreringen av färg är gjord. Dessa detaljer är inget vi vill ha med oss när vi vill identifiera var bollen befinner sig på skärmen. En fördel för oss är dock att dessa detaljer ofta är små (förutsatt att din tröja nu inte har samma färg som objektet i fråga). Hitta ett sätt att filtrera bort dessa små områden med hjälp av två funktioner i dokumentationen som du inte använt ännu.
 
 ### 5. Fruktmarkering
-Nu vill vi slutligen ringa in frukten på skärmen, detta kommer ske med anropen `min_enclosing_circle` och `draw_cicle`.
+Nu vill vi slutligen ringa in frukten på skärmen, detta kommer ske med anropen `image.min_enclosing_circle(min_radius)` och `image.draw_cicle(x, y, r)`.
 
 ### 6. Extra (frivillig i mån av tid och tidigare programmeringskunskaper)
-Om du har någon form av tidigare programmeringskunskaper och extra tid över får du nu chansen att lägga till en svans som följer efter 
+Om du har någon form av tidigare programmeringskunskaper och extra tid över får ni nu chansen att lägga till en svans som följer efter frukten. Man vill naturligt att längden på svansen ska vara begränsad (för att den till slut inte ska fylla skärm och arbetsminne). 
+
+Detta kan ni göra på två sätt, antingen genom att använda en lista där man lagrar cirkelns mittpunkter över tid och för varje ny mittpunkt lägger till denna i listan och tar bort listans äldsta element. Till detta använder vi anropet `image.draw_trail(trail)`.
+
+Den första lösningen som beskrevs kan dock resultera i prestandaproblem då listans innehåll behöver kopieras en gång för varje ny mittpunkt som läggs till. Detta kommer av hur Python implementerar listor. Man kan istället lösa problemet genom att använda sig av en så kallad [ringbuffer](https://en.wikipedia.org/wiki/Circular_buffer). Om ni känner er någorlunda bekväma i Python och med modulo-räkning kan istället välja denna lösning. Till detta använder vi anropet `image.draw_trail(trail, start_index)`.
 
 ## Dokumentation
 
@@ -100,32 +104,26 @@ Tilldela variablerna `x`, `y` och `r` med x-koordinat, y-koordinat respektive ra
 x, y, r = image.min_enclosing_circle(40)
 {% endhighlight %}
 
-### Minsta instängande cirkel
-{% highlight python %}
-image.min_enclosing_circle(min_radius)
-{% endhighlight %}
-*Hitta den minsta minsta cirkel med radie större än `min_radius` som stänger in någon av de vita områdena.*
-
-Exempel:
-Tilldela variablerna `x`, `y` och `r` med x-koordinat, y-koordinat respektive radien av den minsta instängande cirkeln med radien 40.
-{% highlight python %}
-x, y, r = image.min_enclosing_circle(40)
-{% endhighlight %}
-
 ### Rita cirkel
 {% highlight python %}
 image.draw_circle(x, y, r)
 {% endhighlight %}
 *Rita en cirkel runt vid koordinaterna `x` och `y` med radien `r`*
 
-### Rita svans
+### Rita svans (lista)
 {% highlight python %}
 image.draw_trail(trail)
 {% endhighlight %}
 *Rita en avsmalnande svans där funktionsargumentet trail är en lista innehållande koordinatpar*
 
+### Rita svans (ringbuffer)
+{% highlight python %}
+image.draw_trail(trail, start_index)
+{% endhighlight %}
+*Rita en avsmalnande svans där funktionsargumentet `trail` är en ringbuffer innehållande koordinatpar och `start_index` är det index där ringbuffern börjar*
+
 ### Morfologi
-![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Original_Image.png)
+![](../../assets/images/cv_original.png "Orginal")
 
 *Originalbild.*
 
@@ -136,7 +134,7 @@ image.erode(n)
 *Krymper vita delar i bilden. Ju större värde på `n` desto större krympning.*
 *`n` väljs lämpligen till ett värde mellan `0` och `50`.*
 
-![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Erosion.png)
+![](../../assets/images/cv_erode.png "Erode")
 
 *Bild efter erode.*
 
@@ -147,6 +145,6 @@ image.dilate(n)
 *Expanderar vita delar i bilden. Ju större värde på `n` desto större expansion.*
 *`n` väljs lämpligen till ett värde mellan `0` och `50`.*
 
-![alt text](https://docs.opencv.org/2.4/_images/Morphology_1_Tutorial_Theory_Dilation.png)
+![](../../assets/images/cv_dilate.png "Dilate")
 
 *Bild efter dilate.*
