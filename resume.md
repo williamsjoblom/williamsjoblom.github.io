@@ -8,7 +8,7 @@ permalink: /resume/
 
 I am a 22 year old Computer Engineering Master's student based in Linköping, Sweden.
 
-My interests range from electronics and embedded software to design and UX with an emphatis on programming languages, compilers, interpreters, and computer architecture.
+My interests range from electronics and embedded software to design and UX with an empathis on programming languages, compilers, interpreters, and computer architecture.
 
 ## Experience
 ### Work
