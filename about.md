@@ -6,6 +6,24 @@ permalink: /about/
 
 ##### Hi,
 
-I am a 21 year old Computer Engineering student based in Linköping, Sweden.
+I am a 22 year old Computer Engineering Master's student based in Linköping, Sweden.
 
-My interests span from programming and electronics to outdoor recreation and adventuring with the former usually drifting towards lower level programming, compilers and general flipping of ones and zeroes.
+My interests range from electronics and embedded software to design and UX with an emphatis on programming languages, compilers and interpreters, and computer architecture.
+
+### Skills and experience
+
+**Environments**
+
+Unix (but manages my way around the Windows API)
+
+**Languages**
+
+Bash, C, C++, C#, Emacs Lisp, Java, JavaScript, Python, VHDL, x86-64 Assembly
+
+**Version Control**
+
+Git, Subversion, Perforce
+
+**Hardware**
+
+AVR, PIC, Xilinx FPGAs
