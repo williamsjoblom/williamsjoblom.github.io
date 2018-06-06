@@ -39,7 +39,7 @@ Participated in the RoboCup@Home League with the team LiU@HomeWreckers consiting
 
 **Autonomous Mapping Robot**, 2017
 
-Built the winning robot during a project course which was, according to the course administration, was the best mapping robot ever built during the course. Further information can be found under [projects](/projects).
+Built the winning robot during a project course which, according to the course administration, was the best mapping robot ever built during the course. Further information can be found under [projects](/projects).
 
 [News article](https://liu.se/nyhet/kartroboten-som-grejade-segern),
 [video](https://www.youtube.com/watch?v=i0qU6w0D43c)
