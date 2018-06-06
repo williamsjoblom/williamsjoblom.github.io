@@ -55,7 +55,7 @@ A 6502-based homebrew computer with a simple unix-inspired multitasking OS with 
 
    The computer has three programmable timers. Of these the first one is reserved to provide interrupts for context switching while the other two are available for the user.
    
-* Double parallell interface
+* Double 8 bit parallell interface
 * Serial interface
    
    With support for uploading data and programs using the YMODEM protocol.
