@@ -74,7 +74,7 @@ Emacs, JetBrains IDEs (including Android Studio), Visual Studio
 
 **Software**
 
-GDB, ROS
+GDB, ROS, Make, CMake
 
 **Version Control**
 
