@@ -18,7 +18,7 @@ The project is open source and available on [GitHub](https://github.com/williams
 <div class="divider"></div>
 
 ### Digestive <span>2015-present</span>
-[Digestive](https://github.com/williamsjoblom/compiler-experiment) is my own programming language. Even though the JIT-compiler is far from completed it has some of the base functionality already in place. Features such as functions, basic control flow and composite data types are in a working state. One of the compilers main features is its ability to hotswap code at runtime. This means that one can magically make changes to the source code of a running program without having to restart it for the changes to have effect!
+[Digestive](https://github.com/williamsjoblom/digestive-lang) is my own programming language. Even though the JIT-compiler is far from completed it has some of the base functionality already in place. Features such as functions, basic control flow and composite data types are in a working state. One of the compilers main features is its ability to hotswap code at runtime. This means that one can magically make changes to the source code of a running program without having to restart it for the changes to have effect!
 
 _Here are a few code examples:_
 {% highlight swift %}
