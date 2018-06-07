@@ -46,28 +46,25 @@ Implementation of randomly generated 3D city environments.
 
 **RoboCup German Open**, 2018
 
-Participated in the RoboCup@Home League with the team LiU@HomeWreckers consiting of students from Linköping University and the robot Pepper.
+Participated in the RoboCup@Home League with the team LiU@HomeWreckers consiting of students from Linköping University and the robot Pepper. **[**[News article](https://www.nyteknik.se/ingenjorskarriar/vm-vilken-ar-den-basta-hemroboten-6909132)**]**
 
-[News article](https://www.nyteknik.se/ingenjorskarriar/vm-vilken-ar-den-basta-hemroboten-6909132)
+
 
 **Autonomous Mapping Robot**, 2017
 
-Built the winning robot during a project course which, according to the course administration, was the best mapping robot ever built during the course. Further information can be found under [projects](/projects/#mapping-robot).
-
-[News article](https://liu.se/nyhet/kartroboten-som-grejade-segern),
-[Video](https://www.youtube.com/watch?v=i0qU6w0D43c)
+Built the winning robot during a project course which, according to the course administration, was the best mapping robot ever built during the course. Further information can be found under [projects](/projects/#mapping-robot). 
+**[**[News article](https://liu.se/nyhet/kartroboten-som-grejade-segern),
+[video](https://www.youtube.com/watch?v=i0qU6w0D43c)**]**
 
 **Talang**, 2017
 
 Participated in the TV show *Talang* (the Swedish equivalent of America's Got Talent) along with a team of fellow students with the Aldebaran NAO robots. We qualified for the semi-finals during our audition.
-
-[Video](https://www.youtube.com/watch?v=NhZ9dEqTDQQ)
+**[**[Video](https://www.youtube.com/watch?v=NhZ9dEqTDQQ)**]**
 
 **East Sweden Hack**, 2016
 
 Winner of the 48h hackathon *East Sweden Hack*. For this me and my team got awarded a trip to Las Vegas and tickets to the CES electronics fair.
-
-[News article](https://liu.se/liu-nytt/arkiv/nyhetsarkiv/1.694679?l=sv)
+**[**[News article](https://liu.se/liu-nytt/arkiv/nyhetsarkiv/1.694679?l=sv)**]**
 
 #### Student Association Involvement
 
