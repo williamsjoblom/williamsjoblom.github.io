@@ -23,7 +23,7 @@ The project is open source and available on [GitHub](https://github.com/williams
 
 This was a project made for a course in micro processor design at Linköping University. The project goal was to implement a CPU in VHDL on a Xilinx FPGA and then program it to do something useful.
 
-Since I already had a lot of experience using the 6502 CPU and the AY-3-8910 sound generator from the [homebrew computer project](#homebrew) the goal ended up being to implement a source-code compatible 6502 processor in VHDL and interface it with said sound generator. This resulted in a music sequencer with 640x480 VGA output programmable via a hexadecimal keypad.
+Since I already had a lot of experience using the 6502 CPU and the AY-3-8910 sound generator from the [homebrew computer project](#homebrew) the goal ended up being to implement a source code compatible 6502 processor in VHDL and interface it with said sound generator. This resulted in a music sequencer with 640x480 VGA output programmable via a hexadecimal keypad.
 
 ![](../assets/images/sonicboom.jpg "Sound generation board")
 *Extension board housing the sound generator and associated components.*
