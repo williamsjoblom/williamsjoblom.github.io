@@ -8,7 +8,7 @@ permalink: /projects/
 ### Mapping robot <span>2017</span> {#mapping-robot}
 This project was done together with five fellow students at Linköping University for a course in construction with microcomputers during the fall of 2017.
 
-![asdasdasd](../assets/images/kartrobot.jpg "Mapping robot")
+![](../assets/images/kartrobot.jpg "Mapping robot")
 *Our omni-wheeled creation.*
 
 The main assignment was build a robot to map a maze-like course as fast as possible. The usual approach achieving this is by following a wall until you have explored the entire map. But this is far too simple right? Instead we used the more general SLAM-based approach using a LIDAR sensor, some clever algorithms and a ton of control theory; ultimately leading to a blowout in the mapping competition at the end of the semester.
