@@ -64,9 +64,13 @@ Participated in the TV show *Talang* (the Swedish equivalent of America's Got Ta
 Winner of the 48h hackathon *East Sweden Hack*. For this me and my team got awarded a trip to Las Vegas and tickets to the CES electronics fair.
 **[**[News article](https://liu.se/liu-nytt/arkiv/nyhetsarkiv/1.694679?l=sv)**]**
 
+**Other**, 1996&ndash;present
+
+A selection of my projects, for the most part, done at leisure can be found under [Projects](/projects/).
+
 #### Student Association Involvement
 
-**FIA - Föreningen för intelligenta autonoma system**, 2017-2018
+**FIA - Föreningen för intelligenta autonoma system**, 2017&ndash;2018
 
 Board member and secretary in the robotics association [FIA](http://fiarobotics.se/).
 
