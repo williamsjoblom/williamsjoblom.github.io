@@ -66,7 +66,7 @@ Unix, Windows
 
 **Languages**
 
-Bash, C, C++, C#, Emacs Lisp, Java, JavaScript, LaTeX, Python, VHDL, x86-64 Assembly
+Bash, C, C++, C#, Emacs Lisp, Java, LaTeX, Python, VHDL, x86-64 Assembly
 
 **Editors and IDEs**
 
