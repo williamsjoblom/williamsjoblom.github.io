@@ -33,15 +33,32 @@ Implementation of several algorithms for projection UV mapping.
 
 Implementation of randomly generated 3D city environments.
 
-### Other
+### Side projects
 
 **RoboCup German Open**, 2018
 
 Participated in the RoboCup@Home League with the team LiU@HomeWreckers consiting of students from Linköping University and the robot Pepper.
 
+**Autonomous Mapping Robot**, 2017
+
+Built the winning robot during a project course which, according to the course administration, was the best mapping robot ever built during the course. Further information can be found under [projects](/projects).
+
+[News article](https://liu.se/nyhet/kartroboten-som-grejade-segern),
+[video](https://www.youtube.com/watch?v=i0qU6w0D43c)
+
 **Talang**, 2017
 
 Participated in the TV show *Talang* (the Swedish equivalent of America's Got Talent) along with a team of fellow students with the Aldebaran NAO robots. We qualified for the semi-finals during our [audition](https://www.youtube.com/watch?v=NhZ9dEqTDQQ).
+
+**East Sweden Hack**, 2016
+
+Winner of the 48h hackathon *East Sweden Hack*. For this me and my team got awarded a trip to Las Vegas and tickets to the CES electronics fair.
+
+### Student Association Involvement
+
+**FIA - Föreningen för intelligenta autonoma system**, 2017-2018
+
+Board member and secretary in the robotics association FIA.
 
 ## Skills
 
@@ -51,15 +68,15 @@ Unix, Windows
 
 **Languages**
 
-Bash, C, C++, C#, Emacs Lisp, Java, JavaScript, Python, VHDL, x86-64 Assembly
+Bash, C, C++, C#, Emacs Lisp, Java, LaTeX, Python, VHDL, x86-64 Assembly
 
 **Editors and IDEs**
 
-Emacs, JetBrains IDEs, Visual Studio
+Emacs, JetBrains IDEs (including Android Studio), Visual Studio
 
 **Software**
 
-GDB, ROS
+GDB, ROS, Make, CMake
 
 **Version Control**
 
