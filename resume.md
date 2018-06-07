@@ -66,7 +66,7 @@ Winner of the 48h hackathon *East Sweden Hack*. For this me and my team got awar
 
 **Other**, 1996&ndash;present
 
-A selection of my projects, for the most part, done at leisure can be found under [Projects](/projects/).
+A selection of my projects mostly done at leisure can be found under [Projects](/projects/).
 
 #### Student Association Involvement
 
