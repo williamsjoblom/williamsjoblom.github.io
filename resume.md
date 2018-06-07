@@ -11,8 +11,12 @@ I am a 22 year old Computer Engineering Master's student based in Linköping, Sw
 
 My interests range from electronics and embedded software to design and UX with an empathis on programming languages, compilers, interpreters, and computer architecture.
 
+<div class="divider"></div>
+
 ## Education
 **M.Sc. in Computer Engineering**, Linköping University, 2015-present
+
+<div class="divider"></div>
 
 ## Experience
 #### Work
