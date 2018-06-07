@@ -50,7 +50,7 @@ Participated in the RoboCup@Home League with the team LiU@HomeWreckers consiting
 
 **Autonomous Mapping Robot**, 2017
 
-Built the winning robot during a project course which, according to the course administration, was the best mapping robot ever built during the course. Further information can be found under [projects](/projects/#mapping-robot). 
+Built the winning robot during a university project which, according to the course administration, was the best mapping robot ever built during the course. Further information can be found under [projects](/projects/#mapping-robot). 
 **[**[News article](https://liu.se/nyhet/kartroboten-som-grejade-segern),
 [video](https://www.youtube.com/watch?v=i0qU6w0D43c)**]**
 
@@ -62,6 +62,8 @@ Participated in the TV show *Talang* (the Swedish equivalent of America's Got Ta
 **East Sweden Hack**, 2016
 
 Winner of the 48h hackathon *East Sweden Hack*. For this me and my team got awarded a trip to Las Vegas and tickets to the CES electronics fair.
+
+Together we built an IoT bike sharing platform much like Airbnb. The project consisted of a smartphone app, a bike mounted IoT device and a web portal where I was responsible for building and designing the app.
 **[**[News article](https://liu.se/liu-nytt/arkiv/nyhetsarkiv/1.694679?l=sv)**]**
 
 **Other**, 1996&ndash;present
