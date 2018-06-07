@@ -36,7 +36,7 @@ The source code for the CPU, firmware and assembler is available on Github: [CPU
 
 <div class="divider"></div>
 
-### Digestive <span>2015-present</span> {#digestive}
+### Digestive <span>2015&ndash;present</span> {#digestive}
 [Digestive](https://github.com/williamsjoblom/digestive-lang) is my own programming language. Even though the JIT-compiler is far from completed it has some of the base functionality already in place. Features such as functions, basic control flow and composite data types are in a working state. One of the compilers main features is its ability to hotswap code at runtime. This means that one can magically make changes to the source code of a running program without having to restart it for the changes to have effect!
 
 _Here are a few code examples:_
@@ -60,7 +60,7 @@ In its current state the compiler is pretty barebones and only contains generic 
 
 <div class="divider"></div>
 
-### Homebrew computer <span>2013-2014</span> {#homebrew}
+### Homebrew computer <span>2013&ndash;2014</span> {#homebrew}
 A 6502-based homebrew computer with a simple unix-inspired multitasking OS with a shell and BASIC interpreter.
 
 The computer resides on two separate perfboards. The main board which houses the core components such as CPU, memory, and some of the I/O while the extension board contains timers, sound generators and some additional I/O.
