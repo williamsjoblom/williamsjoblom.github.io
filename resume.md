@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Résumé 
+title: résumé 
 permalink: /resume/
 ---
+
+
 
 ##### Hi,
 
