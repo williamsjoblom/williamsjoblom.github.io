@@ -48,8 +48,6 @@ Implementation of randomly generated 3D city environments.
 
 Participated in the RoboCup@Home League with the team LiU@HomeWreckers consiting of students from Linköping University and the robot Pepper. **[**[News article](https://www.nyteknik.se/ingenjorskarriar/vm-vilken-ar-den-basta-hemroboten-6909132)**]**
 
-
-
 **Autonomous Mapping Robot**, 2017
 
 Built the winning robot during a project course which, according to the course administration, was the best mapping robot ever built during the course. Further information can be found under [projects](/projects/#mapping-robot). 
@@ -74,7 +72,7 @@ Board member and secretary in the robotics association [FIA](http://fiarobotics.
 
 <div class="divider"></div>
 
-## Skills
+## Comfortable In
 
 **Environments**
 
