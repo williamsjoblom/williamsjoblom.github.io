@@ -17,7 +17,7 @@ My interests range from electronics and embedded software to design and UX with 
 <div class="divider"></div>
 
 ## Education
-**M.Sc. in Computer Engineering**, Linköping University, 2015-present
+**M.Sc. in Computer Engineering**, Linköping University, 2015&ndash;present
 
 <div class="divider"></div>
 
