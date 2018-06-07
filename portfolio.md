@@ -1,23 +1,24 @@
 ---
 layout: page
 title: Projects
+subtitle: or a few of the things that I've built and feel extra proud of!
 permalink: /projects/
 ---
 
-### Mapping robot <span>2017</span>
+### Mapping robot <span>2017</span> {#mapping-robot}
 This project was done together with five fellow students at Linköping University for a course in construction with microcomputers during the fall of 2017.
 
-![](../assets/images/kartrobot.jpg "Mapping robot") 
+![asdasdasd](../assets/images/kartrobot.jpg "Mapping robot")
 
-The main assignment was build a robot to map a maze-like course as fast as possible. The usual approach achieving this is by following a wall until you have explored the entire map. But this is far too simple right? Instead we used the more general SLAM-based approach using a LIDAR sensor, some clever algorithms and a ton of control theory; ultimately leading to a blowout in the mapping competition at the end of the semster.
+The main assignment was build a robot to map a maze-like course as fast as possible. The usual approach achieving this is by following a wall until you have explored the entire map. But this is far too simple right? Instead we used the more general SLAM-based approach using a LIDAR sensor, some clever algorithms and a ton of control theory; ultimately leading to a blowout in the mapping competition at the end of the semester.
 
-During the project I was mainly involved in design and construction of electronics along with micro controller programming.
+During the project I was mainly responsible for design and construction of electronics along with embedded programming.
 
 The project is open source and available on [GitHub](https://github.com/williamsjoblom/kmm).
 
 <div class="divider"></div>
 
-### Digestive <span>2015-present</span>
+### Digestive <span>2015-present</span> {#digestive}
 [Digestive](https://github.com/williamsjoblom/digestive-lang) is my own programming language. Even though the JIT-compiler is far from completed it has some of the base functionality already in place. Features such as functions, basic control flow and composite data types are in a working state. One of the compilers main features is its ability to hotswap code at runtime. This means that one can magically make changes to the source code of a running program without having to restart it for the changes to have effect!
 
 _Here are a few code examples:_
@@ -41,19 +42,27 @@ In its current state the compiler is pretty barebones and only contains generic 
 
 <div class="divider"></div>
 
-### Homebrew computer <span>2013-2014</span>
-A 6502-based homebrew computer with a simple unix-inspired multitasking OS with a shell and BASIC interpreter. 
+### Homebrew computer <span>2013-2014</span> {#homebrew}
+A 6502-based homebrew computer with a simple unix-inspired multitasking OS with a shell and BASIC interpreter.
+
+The computer resides on two separate perfboards. The main board which houses the core components such as CPU, memory, and some of the I/O while the extension board contains timers, sound generators and some additional I/O.
+
+Sadly this project started before I was properly introduced to version control. As a result of this schematics and source code are nowhere to be found and most likely reside somewhere in my big pile of unused hard drives. When found schematics and source code will be made available on my GitHub.
+
+![](../assets/images/20150525_210636.jpg "Main board")
+_Main board with the memory monitor running._
 
 **Specifications:**
 * 2MHz clock frequency
 * 32Kb of RAM
+* 32Kb of ROM
 * Virtual memory and multitasking
 
-   Since the 6502 does not support virtual memory the RAM had to be split up into 32x1k pages to allow multitasking. A bunch of discrete logic chips are used to bind reserved addresses (the ones for the page swapping demux and some interrupt vectors) to the page used by the kernel to add process memory isolation.
+   Since the 6502 does not support virtual memory the RAM had to be split up into 32x1k pages to allow multitasking. A bunch of discrete logic chips are used to bind reserved addresses (the ones for the page swapping demultiplexer and some interrupt vectors) to the page used by the kernel to add process memory isolation.
 
 * Programmable timers
 
-   The computer has three programmable timers. Of these the first one is reserved to provide interrupts for context switching while the other two are available for the user.
+   The computer has three programmable timers which can either be polled by software or configured to trigger interrupts individually.
    
 * Double 8 bit parallell interface
 * Serial interface
@@ -63,8 +72,9 @@ A 6502-based homebrew computer with a simple unix-inspired multitasking OS with 
 
    Audio output provided by the AY-3-8910 sound generator. Hardware for stereo output using two of these sound generators is present but software support is not yet implemented.
 
-![](../assets/images/20150525_210636.jpg "Main board")
-_Main board with the memory monitor running._
+* PS/2 keyboard interface
+
+
 
 <div class="divider"></div>
 
