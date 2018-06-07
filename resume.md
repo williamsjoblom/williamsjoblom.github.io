@@ -76,7 +76,7 @@ Board member and secretary in the robotics association [FIA](http://fiarobotics.
 
 <div class="divider"></div>
 
-## Comfortable In
+## Comfortable With
 
 **Environments**
 
