@@ -85,7 +85,7 @@ _Main board with the memory monitor running._
 * Double 8 bit parallell interface
 * Serial interface
    
-   With support for uploading data and programs using the YMODEM protocol.
+   With support for uploading data and programs using the [YMODEM](http://pauillac.inria.fr/~doligez/zmodem/ymodem.txt) protocol.
 * Audio output
 
    Audio output provided by the AY-3-8910 sound generator. Hardware for stereo output using two of these sound generators is present but software support is not yet implemented.
