@@ -8,7 +8,7 @@ permalink: /projects/
 ### Mapping robot <span class="year">2017</span> <span class="sub">or our omni-wheeled autonomous baby!</span> {#mapping-robot}
 This project was done together with five fellow students at Linköping University for a course in construction with microcomputers during the fall of 2017.
 
-![asdasdasd](../assets/images/kartrobot.jpg "Mapping robot")
+![](../assets/images/kartrobot.jpg "Mapping robot")
 *Our omni-wheeled creation.*
 
 The main assignment was build a robot to map a maze-like course as fast as possible. The usual approach achieving this is by following a wall until you have explored the entire map. But this is far too simple right? Instead we used the more general SLAM-based approach using a LIDAR sensor, some clever algorithms and a ton of control theory; ultimately leading to a blowout in the mapping competition at the end of the semester.
@@ -23,7 +23,7 @@ The project is open source and available on [GitHub](https://github.com/williams
 
 This was a project made for a course in micro processor design at Linköping University. The project goal was to implement a CPU in VHDL on a Xilinx FPGA and then program it to do something useful.
 
-Since I already had a lot of experience using the 6502 CPU and the AY-3-8910 sound generator from the [homebrew computer project](#homebrew) the goal ended up being to implement a source-code compatible 6502 processor in VHDL and interface it with said sound generator. This resulted in a music sequencer with 640x480 VGA output programmable via a hexadecimal keypad.
+Since I already had a lot of experience using the 6502 CPU and the AY-3-8910 sound generator from the [homebrew computer project](#homebrew) the goal ended up being to implement a source code compatible 6502 processor in VHDL and interface it with said sound generator. This resulted in a music sequencer with 640x480 VGA output programmable via a hexadecimal keypad.
 
 ![](../assets/images/sonicboom.jpg "Sound generation board")
 *Extension board housing the sound generator and associated components.*
