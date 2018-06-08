@@ -27,7 +27,14 @@ h2 span {
   color: $base-secondary-font-color;
 }
 
-h3 span {
+h3 .sub {
+   font-size: 13px;
+   display: block;
+   font-weight: 400;
+   color: $base-secondary-font-color;
+}
+
+h3 .year {
   font-size: 14px;
   color: $base-secondary-font-color;
 }
