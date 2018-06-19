@@ -1,5 +1,5 @@
-
 @import "bourbon/bourbon";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400');
 
 @import "variables";
 @import "base/base";
@@ -7,6 +7,44 @@
 @import "layout";
 @import "syntax-highlighting";
 
-h3 span {
+.title-divider {
+  border-top: 1px solid lighten($light-gray-color, 10%);
+  margin-bottom: $base-spacing;
+  margin-top: -12px;
+  width: 100%;
+}
+
+h1 span {
+  font-size: 15px;
+  display: block;
+  margin-top: 2px;
+  font-weight: 400;
+  color: $base-secondary-font-color;
+}
+
+h2 span {
+  font-size: 16px;
+  color: $base-secondary-font-color;
+}
+
+h3 .sub {
+   font-size: 13px;
+   display: block;
+   font-weight: 400;
+   color: $base-secondary-font-color;
+}
+
+h3 .year {
   font-size: 14px;
+  color: $base-secondary-font-color;
+}
+
+h4 span {
+  font-size: 12px;
+  color: $base-secondary-font-color;
+}
+
+h5 span {
+  font-size: 10px;
+  color: $base-secondary-font-color;
 }
