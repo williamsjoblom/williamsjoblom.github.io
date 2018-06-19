@@ -110,8 +110,8 @@ AVR, PIC, Xilinx FPGAs
 
 <div class="divider"></div>
 
-## What Makes Me Happy?
-* Building cool contraptions
-* Readable, tidy and beutiuful code
+## What Makes Me Extra Happy?
+* Building cool contraptions.
+* Readable, tidy and beautiful code.
 * TDD
 * Scrum
