@@ -23,6 +23,10 @@ My interests range from electronics and embedded software to design and UX with 
 
 ## Experience
 #### Work
+**R&D Developer** (summer internship), [Configura](https://configura.com), 2018
+
+Ongoing&hellip;
+
 **R&D Developer** (summer internship), [Configura](https://configura.com), 2017
 
 Internship focused on optimization of 3D objects which resulted in:
