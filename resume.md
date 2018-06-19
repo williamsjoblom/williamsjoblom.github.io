@@ -9,7 +9,7 @@ permalink: /resume/
 
 I am a 22 year old Computer Engineering Master's student based in Linköping, Sweden.
 
-My interests range from electronics and embedded software to design and UX with an empathis on programming languages, compilers, interpreters, and computer architecture.
+My interests range from electronics and embedded software to design and UX with an empathis on programming languages, compilers, interpreters, and embedded software.
 
 **Am I the one you're looking for?** Hit me up!
 *&#119;&#108;&#108;&#109;&#115;&#106;&#098;&#108;&#109; at &#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;*
@@ -103,3 +103,6 @@ Git, Subversion, Perforce
 **Hardware**
 
 AVR, PIC, Xilinx FPGAs
+
+**Processes**
+CI, TDD, Scrum
