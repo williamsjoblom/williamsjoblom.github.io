@@ -82,7 +82,7 @@ Board member and secretary in the robotics association [FIA](http://fiarobotics.
 
 <div class="divider"></div>
 
-## Comfortable With
+## Extra Comfortable With
 
 **Environments**
 
@@ -102,11 +102,8 @@ Docker, GDB, Make, CMake, ROS
 
 **Version Control**
 
-Git, Subversion, Perforce
+Git, Perforce
 
 **Hardware**
 
 AVR, PIC, Xilinx FPGAs
-
-**Processes**
-CI, TDD, Scrum
