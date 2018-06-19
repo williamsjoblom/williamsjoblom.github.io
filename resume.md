@@ -17,11 +17,11 @@ My interests range from electronics and embedded software to design and UX with 
 Internship focused on optimization of 3D objects which resulted in:
 * Speedier normal calculations for certain meshes.
 * A tool for removing invisible meshes.
-* A tool for performance profiling on models in their new proprietary 3D format.
+* A tool for performance profiling on models in their new proprietary scene graph format.
 
 **R&D Developer** *(summer internship)*, [Configura](https://configura.com), 2016
 
-Implementation of an optimizing regular expression engine that parses, interprets and compiles regular expressions to x86 machine code.
+Implementation of an optimizing regular expression engine in C++ that parses, interprets and compiles regular expressions to x86 machine code.
 
 **R&D Developer** *(summer internship)*, [Configura](https://configura.com), 2015
 
