@@ -107,3 +107,11 @@ Git, Perforce
 **Hardware**
 
 AVR, PIC, Xilinx FPGAs
+
+<div class="divider"></div>
+
+## What Makes Me Happy?
+* Building cool contraptions
+* Readable, tidy and beutiuful code
+* TDD
+* Scrum
