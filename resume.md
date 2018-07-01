@@ -102,7 +102,7 @@ Docker, GDB, Make, CMake, ROS
 
 **Version Control**
 
-Git, Perforce
+Git, Perforce (with P4V)
 
 **Hardware**
 
