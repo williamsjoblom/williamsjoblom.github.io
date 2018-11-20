@@ -3,6 +3,7 @@ layout: page
 title: Resume
 subtitle: or some of the things I've done that might help me land my dream job!
 permalink: /resume/
+pdf: true
 ---
 
 ##### Hi,
@@ -25,7 +26,7 @@ My interests range from electronics and embedded software to design and UX with 
 #### Work
 **R&D Developer** (summer internship), [Configura](https://configura.com), 2018
 
-Ongoing&hellip;
+Summer internship focused on automatic LOD generation of models consising of models consisting of several meshes. The project was based around automatic mesh reduction assited by image matching.
 
 **R&D Developer** (summer internship), [Configura](https://configura.com), 2017
 
