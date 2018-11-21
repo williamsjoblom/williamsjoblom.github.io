@@ -103,16 +103,8 @@ Docker, GDB, Make, CMake, ROS
 
 **Version Control**
 
-Git, Perforce
+Git, Perforce (with P4V)
 
 **Hardware**
 
 AVR, PIC, Xilinx FPGAs
-
-<div class="divider"></div>
-
-## What Makes Me Extra Happy?
-* Building cool contraptions.
-* Readable, tidy and beautiful code.
-* TDD
-* Scrum
