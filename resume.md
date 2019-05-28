@@ -8,7 +8,7 @@ pdf: true
 
 ##### Hi,
 
-I am a 22 year old Computer Engineering Master's student based in Linköping, Sweden.
+I am a 23 year old Computer Engineering Master's student based in Linköping, Sweden.
 
 My interests range from electronics and embedded software to design and UX with an empathis on programming languages, compilers, interpreters, and embedded software.
 
@@ -24,6 +24,9 @@ My interests range from electronics and embedded software to design and UX with 
 
 ## Experience
 #### Work
+**Developer** (summer internship), [Opera Software](https://www.opera.com/), 2019
+
+
 **R&D Developer** (summer internship), [Configura](https://configura.com), 2018
 
 Summer internship focused on automatic LOD generation for models consisting of several meshes. The project was based around automatic mesh reduction assisted by image matching.
@@ -83,7 +86,7 @@ Board member and secretary in the robotics association [FIA](http://fiarobotics.
 
 <div class="divider"></div>
 
-## Extra Comfortable With
+## Comfortable With
 
 **Environments**
 
