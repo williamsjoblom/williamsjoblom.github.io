@@ -90,7 +90,7 @@ Board member and secretary in the robotics association [FIA](http://fiarobotics.
 
 **Environments**
 
-Unix, Windows
+Linux
 
 **Languages**
 
