@@ -26,6 +26,7 @@ My interests range from electronics and embedded software to design and UX with 
 #### Work
 **Developer** (summer internship), [Opera Software](https://www.opera.com/), 2019
 
+Implementation of an automatic formatter for code written in [Pike](https://pike.lysator.liu.se). The formatter itself is also written in Pike and capable of formatting code according to Operas internal style guide.
 
 **R&D Developer** (summer internship), [Configura](https://configura.com), 2018
 
@@ -33,10 +34,10 @@ Summer internship focused on automatic LOD generation for models consisting of s
 
 **R&D Developer** (summer internship), [Configura](https://configura.com), 2017
 
-Internship focused on optimization of 3D objects which resulted in:
+Summer internship focused on optimization of 3D objects which resulted in:
 * Speedier normal calculations for certain meshes.
 * A tool for removing invisible meshes.
-* A tool for performance profiling on models in their new proprietary scene graph format.
+* A tool for performance profiling on models in their new scene graph format.
 
 **R&D Developer** (summer internship), [Configura](https://configura.com), 2016
 
