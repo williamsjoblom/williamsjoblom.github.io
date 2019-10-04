@@ -81,7 +81,8 @@ A selection of my projects done mostly at leisure can be found under [Projects](
 
 #### Student Association Involvement
 
-**FIA - Föreningen för intelligenta autonoma system**, 2017&ndash;2018
+
+**FIA - Föreningen för intelligenta autonoma system**, 2017&ndash;2018 & 2019&ndash;2020
 
 Board member and secretary in the robotics association [FIA](http://fiarobotics.se/).
 
