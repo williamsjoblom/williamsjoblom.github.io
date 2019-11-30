@@ -100,7 +100,7 @@ Bash, C, C++, C#, Emacs Lisp, Java, LaTeX, Python, VHDL, x86-64 Assembly
 
 **Editors and IDEs**
 
-Emacs, JetBrains IDEs (including Android Studio), Visual Studio
+Emacs, JetBrains IDEs (including Android Studio)
 
 **Software**
 
