@@ -96,7 +96,7 @@ Linux
 
 **Languages**
 
-Bash, C, C++, C#, Emacs Lisp, Java, LaTeX, Python, VHDL, x86-64 Assembly
+Bash, C, C++, C#, Emacs Lisp, Java, LaTeX, Python, VHDL
 
 **Editors and IDEs**
 
