@@ -37,7 +37,7 @@ Summer internship focused on automatic LOD generation for models consisting of s
 Summer internship focused on optimization of 3D objects which resulted in:
 * Speedier normal calculations for certain meshes.
 * A tool for removing invisible meshes.
-* A tool for performance profiling on models in their new scene graph format.
+* A tool for performance profiling on models in Configura's new scene graph format.
 
 **R&D Developer** (summer internship), [Configura](https://configura.com), 2016
 
