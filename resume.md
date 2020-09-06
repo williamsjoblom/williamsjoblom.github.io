@@ -8,7 +8,7 @@ pdf: true
 
 ##### Hi,
 
-I am a 24 year old Computer Engineering Master's student based in Linköping, Sweden.
+I am a 24 year old Computer Engineering Master's student based in Stockholm, Sweden.
 
 My interests range from electronics and embedded software to design and UX with an empathis on programming languages, compilers, interpreters, and embedded software.
 
@@ -18,7 +18,7 @@ My interests range from electronics and embedded software to design and UX with 
 <div class="divider"></div>
 
 ## Education
-**M.Sc. in Computer Engineering**, Linköping University, 2015&ndash;present
+**M.Sc. in Computer Engineering**, Linköping University, 2015&ndash;2020
 
 <div class="divider"></div>
 
@@ -51,6 +51,14 @@ Implementation of several algorithms for projection UV mapping.
 
 Implementation of randomly generated 3D city environments.
 
+#### Academic
+
+**Master's Thesis**, [Oracle](https://www.oracle.com/), *ongoing*
+
+Master's Thesis conducted on the OpenJDK (Open Java Development Kit)
+consisting of a new optimization pass for automatic vectorization of
+reductions loops in the Java HotSpot Server Compiler.
+
 #### Side projects
 
 **RoboCup German Open**, 2018
@@ -59,7 +67,7 @@ Participated in the RoboCup@Home League with the team LiU@HomeWreckers consiting
 
 **Autonomous Mapping Robot**, 2017
 
-Built the winning robot during a university project which, according to the course administration, was the best mapping robot ever built during the course. Further information can be found under [projects](/projects/#mapping-robot). 
+Built the winning robot during a university project which, according to the course administration, was the best mapping robot ever built during the course. Further information can be found under [projects](/projects/#mapping-robot).
 **[**[News article](https://liu.se/nyhet/kartroboten-som-grejade-segern),
 [video](https://www.youtube.com/watch?v=i0qU6w0D43c)**]**
 
