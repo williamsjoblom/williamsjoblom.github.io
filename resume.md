@@ -57,7 +57,7 @@ Implementation of randomly generated 3D city environments.
 
 Master's Thesis conducted on the OpenJDK (Open Java Development Kit)
 consisting of a new optimization pass for automatic vectorization of
-reductions loops in the Java HotSpot Server Compiler.
+loops in the Java HotSpot Server Compiler.
 
 #### Side projects
 
