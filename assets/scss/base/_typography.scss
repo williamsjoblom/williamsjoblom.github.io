@@ -113,7 +113,8 @@ pre {
 }
 
 strong {
-  font-weight: bold;
+    font-weight: bold;
+    font-family: $heading-font-family;
 }
 
 em {
