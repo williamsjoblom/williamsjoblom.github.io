@@ -8,9 +8,11 @@ pdf: true
 
 ##### Hi,
 
-I am a 24 year old Computer Engineering Master's student based in Stockholm, Sweden.
+I am a 24 year old Computer Engineering Master's student based in Linköping, Sweden.
 
-My interests range from electronics and embedded software to design and UX with an empasis on programming languages, compilers, interpreters, and embedded software.
+My interests range from electronics and embedded software to design
+and UX with an empasis on programming languages, compilers,
+interpreters, and low-level bit flipping.
 
 **Am I the one you're looking for?** Hit me up!
 *&#119;&#108;&#108;&#109;&#115;&#106;&#098;&#108;&#109; at &#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;*
@@ -53,11 +55,14 @@ Implementation of randomly generated 3D city environments.
 
 #### Academic
 
-**Master's Thesis**, [Oracle](https://www.oracle.com/), *ongoing*
+**Master's Thesis**, [Oracle](https://www.oracle.com/), 2020
 
-Master's Thesis conducted on the OpenJDK (Open Java Development Kit)
-consisting of a new optimization pass for automatic vectorization of
-loops in the Java HotSpot Server Compiler.
+Implementation of an additional loop vectorization pass for the C2
+compiler in the HotSpot virtual machine, part of the OpenJDK (Open
+Java Development
+Kit). **[**[Publication](http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-172789),
+[blog
+post](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)**]**
 
 #### Side projects
 
