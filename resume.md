@@ -26,6 +26,8 @@ interpreters, and low-level bit flipping.
 
 ## Experience
 #### Work
+**Developer** (full-time), [Cendio AB](https://www.cendio.com), 2021&ndash;*present*
+
 **Developer** (summer internship), [Opera Software](https://www.opera.com/), 2019
 
 Implementation of an automatic formatter for code written in [Pike](https://pike.lysator.liu.se). The formatter itself is also written in Pike and capable of formatting code according to Operas internal style guide.
