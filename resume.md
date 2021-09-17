@@ -111,19 +111,15 @@ Linux
 
 **Languages**
 
-Bash, C, C++, C#, Emacs Lisp, Java, LaTeX, Python, VHDL
-
-**Editors and IDEs**
-
-Emacs, JetBrains IDEs (including Android Studio)
+Bash, C, C++, Emacs Lisp, LaTeX, Python, VHDL
 
 **Software**
 
-Docker, GDB, Make, CMake, ROS
+Docker, GDB, Make, ROS
 
 **Version Control**
 
-Git, Perforce (with P4V)
+Git
 
 **Hardware**
 
