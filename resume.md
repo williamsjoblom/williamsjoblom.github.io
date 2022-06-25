@@ -11,7 +11,7 @@ pdf: true
 I am a 25 year old Computer Engineering Master's student based in Linköping, Sweden.
 
 My interests range from electronics and embedded software to design
-and UX with an empasis on programming languages, compilers,
+and UX with an emphasis on programming languages, compilers,
 interpreters, and low-level bit flipping.
 
 **Am I the one you're looking for?** Hit me up!
