@@ -8,7 +8,7 @@ pdf: true
 
 ##### Hi,
 
-I am a 25 year old Computer Engineering Master's student based in Linköping, Sweden.
+I am a 26 year old Computer Science & Engineering graduate based in Linköping, Sweden.
 
 My interests range from electronics and embedded software to design
 and UX with an emphasis on programming languages, compilers,
@@ -20,13 +20,15 @@ interpreters, and low-level bit flipping.
 <div class="divider"></div>
 
 ## Education
-**M.Sc. in Computer Engineering**, Linköping University, 2015&ndash;2020
+**M.Sc. in Computer Science & Engineering**, Linköping University, 2015&ndash;2020
 
 <div class="divider"></div>
 
 ## Experience
 #### Work
-**Developer** (full-time), [Cendio AB](https://www.cendio.com), 2021&ndash;*present*
+**Tech Lead** (full-time), [Opera Software](https://www.opera.com), 2022&ndash;*present*
+
+**Developer** (full-time), [Cendio AB](https://www.cendio.com), 2021&ndash;2022
 
 **Developer** (summer internship), [Opera Software](https://www.opera.com/), 2019
 
